@@ -1,0 +1,15 @@
+    $name : str-slice('sprite-logo.png', 1, 11);
+	@mixin sprite-bg($posX, $posY, $w, $h, $tw, $th, $n:2){
+        width:calc($w / $n);
+        height:calc($h / $n);
+        background-size: calc($tw / $n) calc($th / $n);
+        background-position: calc($posX / $n) calc($posY / $n);
+        background-size: calc($tw / $n) calc($th/ $n);
+	}
+    .#{$name}{
+        display:inline-block;
+        background-image: url($spriteURL+'sprite-logo.png');
+        background-repeat: no-repeat;	
+    }
+    .#{$name}.logo01{@include sprite-bg(0px, -167px, 600px, 162px, 688px, 329px);}
+    .#{$name}.logo02{@include sprite-bg(0px, 0px, 688px, 162px, 688px, 329px);}

@@ -1,0 +1,19 @@
+    $name : str-slice('sprite-bank.png', 1, 11);
+	@mixin sprite-bg($posX, $posY, $w, $h, $tw, $th, $n:2){
+        width:calc($w / $n);
+        height:calc($h / $n);
+        background-size: calc($tw / $n) calc($th / $n);
+        background-position: calc($posX / $n) calc($posY / $n);
+        background-size: calc($tw / $n) calc($th/ $n);
+	}
+    .#{$name}{
+        display:inline-block;
+        background-image: url($spriteURL+'sprite-bank.png');
+        background-repeat: no-repeat;	
+    }
+    .#{$name}.bank01{@include sprite-bg(0px, 0px, 48px, 48px, 154px, 101px);}
+    .#{$name}.bank02{@include sprite-bg(-53px, 0px, 48px, 48px, 154px, 101px);}
+    .#{$name}.bank03{@include sprite-bg(0px, -53px, 48px, 48px, 154px, 101px);}
+    .#{$name}.bank04{@include sprite-bg(-53px, -53px, 48px, 48px, 154px, 101px);}
+    .#{$name}.bank05{@include sprite-bg(-106px, 0px, 48px, 48px, 154px, 101px);}
+    .#{$name}.bank06{@include sprite-bg(-106px, -53px, 48px, 48px, 154px, 101px);}

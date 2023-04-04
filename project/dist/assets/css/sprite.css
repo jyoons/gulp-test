@@ -1,0 +1,76 @@
+.sprite-bank {
+display: inline-block;
+background-image: url("/asset/images/sprite/sprite-bank.png");
+background-repeat: no-repeat;
+}
+
+.sprite-bank.bank01 {
+width: 24px;
+height: 24px;
+background-size: 77px 50.5px;
+background-position: 0px 0px;
+background-size: 77px 50.5px;
+}
+
+.sprite-bank.bank02 {
+width: 24px;
+height: 24px;
+background-size: 77px 50.5px;
+background-position: -26.5px 0px;
+background-size: 77px 50.5px;
+}
+
+.sprite-bank.bank03 {
+width: 24px;
+height: 24px;
+background-size: 77px 50.5px;
+background-position: 0px -26.5px;
+background-size: 77px 50.5px;
+}
+
+.sprite-bank.bank04 {
+width: 24px;
+height: 24px;
+background-size: 77px 50.5px;
+background-position: -26.5px -26.5px;
+background-size: 77px 50.5px;
+}
+
+.sprite-bank.bank05 {
+width: 24px;
+height: 24px;
+background-size: 77px 50.5px;
+background-position: -53px 0px;
+background-size: 77px 50.5px;
+}
+
+.sprite-bank.bank06 {
+width: 24px;
+height: 24px;
+background-size: 77px 50.5px;
+background-position: -53px -26.5px;
+background-size: 77px 50.5px;
+}
+
+.sprite-logo {
+display: inline-block;
+background-image: url("/asset/images/sprite/sprite-logo.png");
+background-repeat: no-repeat;
+}
+
+.sprite-logo.logo01 {
+width: 300px;
+height: 81px;
+background-size: 344px 164.5px;
+background-position: 0px -83.5px;
+background-size: 344px 164.5px;
+}
+
+.sprite-logo.logo02 {
+width: 344px;
+height: 81px;
+background-size: 344px 164.5px;
+background-position: 0px 0px;
+background-size: 344px 164.5px;
+}
+/*# sourceMappingURL=sprite.css.map */

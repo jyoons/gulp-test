@@ -1,0 +1,21 @@
+<svg id="ico_no_result" xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <style>
+            .cls-2,.cls-3{fill:#fff;stroke:#707070;stroke-width:2px}.cls-2{stroke-linejoin:round}.cls-5{fill:#666}
+        </style>
+    </defs>
+    <g id="그룹_1673" data-name="그룹 1673" transform="translate(-1031.911 -616)">
+        <g id="document" transform="translate(105.892 2)">
+            <path id="빼기_7" data-name="빼기 7" class="cls-2" d="M68 93H0V0h48l20 20v73z" transform="translate(936 627)"/>
+            <path id="패스_3811" data-name="패스 3811" class="cls-2" d="M-4584.541 596v-20l20 20z" transform="translate(5568.541 50.999)"/>
+        </g>
+        <circle id="타원_273" data-name="타원 273" class="cls-3" cx="21" cy="21" r="21" transform="translate(1084.89 666)"/>
+        <path id="패스_3812" data-name="패스 3812" d="M-4383 653v7.224" transform="rotate(-45 -1572.493 -5966.042)" style="fill:none;stroke:#707070;stroke-width:2px"/>
+        <path id="사각형_1104" data-name="사각형 1104" class="cls-3" transform="rotate(-45 1416.49 -999.963)" d="M0 0h8v20H0z"/>
+        <g id="그룹_1642" data-name="그룹 1642" transform="translate(61.89 -533)">
+            <circle id="타원_274" data-name="타원 274" class="cls-5" cx="1.5" cy="1.5" r="1.5" transform="translate(1034 1219)"/>
+            <circle id="타원_275" data-name="타원 275" class="cls-5" cx="1.5" cy="1.5" r="1.5" transform="translate(1043 1219)"/>
+            <circle id="타원_276" data-name="타원 276" class="cls-5" cx="1.5" cy="1.5" r="1.5" transform="translate(1052 1219)"/>
+        </g>
+    </g>
+</svg>

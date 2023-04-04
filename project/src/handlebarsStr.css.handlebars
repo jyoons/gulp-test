@@ -1,0 +1,18 @@
+{{#spritesheet}}
+    $name : str-slice('{{{escaped_image}}}', 1, 11);
+	@mixin sprite-bg($posX, $posY, $w, $h, $tw, $th, $n:2){
+        width:calc($w / $n);
+        height:calc($h / $n);
+        background-size: calc($tw / $n) calc($th / $n);
+        background-position: calc($posX / $n) calc($posY / $n);
+        background-size: calc($tw / $n) calc($th/ $n);
+	}
+    .#{$name}{
+        display:inline-block;
+        background-image: url($spriteURL+'{{{escaped_image}}}');
+        background-repeat: no-repeat;	
+    }
+{{/spritesheet}}
+{{#sprites}}
+    .#{$name}.{{name}}{@include sprite-bg({{px.offset_x}}, {{px.offset_y}}, {{px.width}}, {{px.height}}, {{px.total_width}}, {{px.total_height}});}
+{{/sprites}}
